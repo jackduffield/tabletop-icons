@@ -64,8 +64,8 @@ The repository is mirrored in black and white, with identical shapes available i
             └── (13 icons)
     ```
 
-    </td>
-    <td width="50%">
+</td>
+<td width="50%">
 
     ```
     tabletop-icons
