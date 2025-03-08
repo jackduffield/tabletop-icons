@@ -1,9 +1,123 @@
-# Icons Gallery
+# Tabletop Icons
 
-All image paths are relative to the repository root.
+#### Vector graphics for Age of Sigmar and other tabletop games
 
+Tabletop Icons provides a  set of 536 labelled vector graphics in SVG format which are suitable for use as icons for Age of Sigmar, as well as other tabletop games. The graphics are designed to mimic the official style while being internally consistent - where this has not been practical, multiple variants of an icon are provided.
 
-### Card-Decks
+This repository builds upon an original set of graphics, formerly maintained by Saddam Quirem.
+
+# License
+
+Tabletop Icons is provided under the [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). You are free to copy and redistribute the material in any medium or format, and remix, transform, and build upon the material. You must give appropriate credit, provide a link to the license, and indicate if changes were made. For full details of the license, please see [`LICENSE.md`](LICENSE.md).
+
+# Structure
+
+The repository is mirrored in black and white, with identical shapes available in each colour.
+
+<table>
+  <tr>
+    <td width="50%">
+    ```
+    tabletop-icons
+    └── black
+        ├── card-decks/
+        │   └── (5 icons)
+        ├── characteristics
+        │   └── (7 icons)
+        ├── deployment
+        │   └── (3 icons)
+        ├── factions
+        │   ├── allies
+        │   │   └── (15 icons)
+        │   ├── chaos
+        │   │   └── (21 icons)
+        │   ├── death
+        │   │   └── (8 icons)
+        │   ├── destruction
+        │   │   └── (17 icons)
+        │   ├── grand-alliances
+        │   │   └── (4 icons)
+        │   ├── monsters
+        │   │   └── (4 icons)
+        │   └── order
+        │       ├── (14 icons)
+        │       ├── cities-of-sigmar
+        │       │   └── (8 icons)
+        │       ├── free-peoples
+        │       │   └── (14 icons)
+        │       └── lumineth-castes
+        │           └── (5 icons)
+        ├── fighters
+        │   └── (27 icons)
+        ├── misc
+        │   └── (4 icons)
+        ├── realms
+        │   └── (19 icons)
+        ├── treasure
+        │   └── (8 icons)
+        ├── twists
+        │   └── (7 icons)
+        ├── warbands
+        │   └── (65 icons)
+        └── weapons
+            └── (13 icons)
+    ```
+    </td>
+    <td width="50%">
+    ```
+    tabletop-icons
+    └── white
+        ├── card-decks/
+        │   └── (5 icons)
+        ├── characteristics
+        │   └── (7 icons)
+        ├── deployment
+        │   └── (3 icons)
+        ├── factions
+        │   ├── allies
+        │   │   └── (15 icons)
+        │   ├── chaos
+        │   │   └── (21 icons)
+        │   ├── death
+        │   │   └── (8 icons)
+        │   ├── destruction
+        │   │   └── (17 icons)
+        │   ├── grand-alliances
+        │   │   └── (4 icons)
+        │   ├── monsters
+        │   │   └── (4 icons)
+        │   └── order
+        │       ├── (14 icons)
+        │       ├── cities-of-sigmar
+        │       │   └── (8 icons)
+        │       ├── free-peoples
+        │       │   └── (14 icons)
+        │       └── lumineth-castes
+        │           └── (5 icons)
+        ├── fighters
+        │   └── (27 icons)
+        ├── misc
+        │   └── (4 icons)
+        ├── realms
+        │   └── (19 icons)
+        ├── treasure
+        │   └── (8 icons)
+        ├── twists
+        │   └── (7 icons)
+        ├── warbands
+        │   └── (65 icons)
+        └── weapons
+            └── (13 icons)
+    ```
+    </td>
+  </tr>
+</table>
+
+# Gallery
+
+Below is a thumnail of every image in the repository.
+
+## Card-Decks
 
 <table>
   <tr>
@@ -36,7 +150,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-### Characteristics
+## Characteristics
 
 <table>
   <tr>
@@ -79,7 +193,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-### Deployment
+## Deployment
 
 <table>
   <tr>
@@ -102,7 +216,10 @@ All image paths are relative to the repository root.
 </table>
 
 
-#### Allies
+## Factions
+
+
+### Allies
 
 <table>
   <tr>
@@ -187,7 +304,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-#### Chaos
+### Chaos
 
 <table>
   <tr>
@@ -295,11 +412,16 @@ All image paths are relative to the repository root.
   <source media="(prefers-color-scheme: light)" srcset="white/factions/chaos/tzeentch-daemons.svg">
   <img alt="Tzeentch Daemons" src="white/factions/chaos/tzeentch-daemons.svg" width="100">
 </picture></td>
+<td align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="white/factions/chaos/clans-verminus.svg">
+  <source media="(prefers-color-scheme: light)" srcset="white/factions/chaos/clans-verminus.svg">
+  <img alt="Clans Verminus" src="white/factions/chaos/clans-verminus.svg" width="100">
+</picture></td>
   </tr>
 </table>
 
 
-#### Death
+### Death
 
 <table>
   <tr>
@@ -347,7 +469,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-#### Destruction
+### Destruction
 
 <table>
   <tr>
@@ -444,7 +566,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-#### Grand-Alliances
+### Grand-Alliances
 
 <table>
   <tr>
@@ -472,7 +594,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-#### Monsters
+### Monsters
 
 <table>
   <tr>
@@ -500,7 +622,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-#### Order
+### Order
 
 <table>
   <tr>
@@ -580,7 +702,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-##### Cities-Of-Sigmar
+#### Cities-Of-Sigmar
 
 <table>
   <tr>
@@ -628,7 +750,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-##### Free-Peoples
+#### Free-Peoples
 
 <table>
   <tr>
@@ -708,7 +830,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-##### Lumineth-Castes
+#### Lumineth-Castes
 
 <table>
   <tr>
@@ -741,104 +863,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-#### Warbands
-
-<table>
-  <tr>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/chaos-legionnaires.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/chaos-legionnaires.svg">
-  <img alt="Chaos Legionnaires" src="white/factions/warbands/chaos-legionnaires.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/claws-of-karanak.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/claws-of-karanak.svg">
-  <img alt="Claws Of Karanak" src="white/factions/warbands/claws-of-karanak.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/corvus-cabal.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/corvus-cabal.svg">
-  <img alt="Corvus Cabal" src="white/factions/warbands/corvus-cabal.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/cypher-lords.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/cypher-lords.svg">
-  <img alt="Cypher Lords" src="white/factions/warbands/cypher-lords.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/darkoath-savagers.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/darkoath-savagers.svg">
-  <img alt="Darkoath Savagers" src="white/factions/warbands/darkoath-savagers.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/horns-of-hashut.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/horns-of-hashut.svg">
-  <img alt="Horns Of Hashut" src="white/factions/warbands/horns-of-hashut.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/hunters-of-huanchi.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/hunters-of-huanchi.svg">
-  <img alt="Hunters Of Huanchi" src="white/factions/warbands/hunters-of-huanchi.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/iron-golems.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/iron-golems.svg">
-  <img alt="Iron Golems" src="white/factions/warbands/iron-golems.svg" width="100">
-</picture></td>
-  </tr>
-  <tr>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/jade-obelisk.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/jade-obelisk.svg">
-  <img alt="Jade Obelisk" src="white/factions/warbands/jade-obelisk.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/khainite-shadowstalkers.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/khainite-shadowstalkers.svg">
-  <img alt="Khainite Shadowstalkers" src="white/factions/warbands/khainite-shadowstalkers.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/rotmire-creed.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/rotmire-creed.svg">
-  <img alt="Rotmire Creed" src="white/factions/warbands/rotmire-creed.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/scions-of-the-flame.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/scions-of-the-flame.svg">
-  <img alt="Scions Of The Flame" src="white/factions/warbands/scions-of-the-flame.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/spire-tyrants.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/spire-tyrants.svg">
-  <img alt="Spire Tyrants" src="white/factions/warbands/spire-tyrants.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/splintered-fang.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/splintered-fang.svg">
-  <img alt="Splintered Fang" src="white/factions/warbands/splintered-fang.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/tarantulos-brood.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/tarantulos-brood.svg">
-  <img alt="Tarantulos Brood" src="white/factions/warbands/tarantulos-brood.svg" width="100">
-</picture></td>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/the-unmade.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/the-unmade.svg">
-  <img alt="The Unmade" src="white/factions/warbands/the-unmade.svg" width="100">
-</picture></td>
-  </tr>
-  <tr>
-    <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/factions/warbands/untamed-beasts.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/factions/warbands/untamed-beasts.svg">
-  <img alt="Untamed Beasts" src="white/factions/warbands/untamed-beasts.svg" width="100">
-</picture></td>
-  </tr>
-</table>
-
-
-### Fighters
+## Fighters
 
 <table>
   <tr>
@@ -987,7 +1012,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-### Misc
+## Misc
 
 <table>
   <tr>
@@ -1015,7 +1040,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-### Realms
+## Realms
 
 <table>
   <tr>
@@ -1122,7 +1147,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-### Treasure
+## Treasure
 
 <table>
   <tr>
@@ -1170,7 +1195,7 @@ All image paths are relative to the repository root.
 </table>
 
 
-### Twists
+## Twists
 
 <table>
   <tr>
@@ -1213,265 +1238,365 @@ All image paths are relative to the repository root.
 </table>
 
 
-### Warbands
+## Warbands
 
 <table>
+  
   <tr>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/blackpowders.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/blackpowders.svg">
-  <img alt="Blackpowders" src="white/warbands/blackpowders.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/the-headsmen.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/the-headsmen.svg">
+      <img alt="The Headsmen" src="black/warbands/the-headsmen.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/briarqueen.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/briarqueen.svg">
-  <img alt="Briarqueen" src="white/warbands/briarqueen.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/the-shadeborn.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/the-shadeborn.svg">
+      <img alt="The Shadeborn" src="black/warbands/the-shadeborn.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/chosenaxes.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/chosenaxes.svg">
-  <img alt="Chosenaxes" src="white/warbands/chosenaxes.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/the-unmade.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/the-unmade.svg">
+      <img alt="The Unmade" src="black/warbands/the-unmade.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/crimsoncourt.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/crimsoncourt.svg">
-  <img alt="Crimsoncourt" src="white/warbands/crimsoncourt.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/thundrik.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/thundrik.svg">
+      <img alt="Thundrik" src="black/warbands/thundrik.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/dakunninkrew.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/dakunninkrew.svg">
-  <img alt="Dakunninkrew" src="white/warbands/dakunninkrew.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/untamed-beasts.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/untamed-beasts.svg">
+      <img alt="Untamed Beasts" src="black/warbands/untamed-beasts.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/domitans.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/domitans.svg">
-  <img alt="Domitans" src="white/warbands/domitans.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/velmorn.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/velmorn.svg">
+      <img alt="Velmorn" src="black/warbands/velmorn.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/dreadpageant.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/dreadpageant.svg">
-  <img alt="Dreadpageant" src="white/warbands/dreadpageant.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/wurmspat.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/wurmspat.svg">
+      <img alt="Wurmspat" src="black/warbands/wurmspat.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/elathain.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/elathain.svg">
-  <img alt="Elathain" src="white/warbands/elathain.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/xandires.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/xandires.svg">
+      <img alt="Xandires" src="black/warbands/xandires.svg" width="100">
+    </picture></td>
   </tr>
+  
   <tr>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/ephilims.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/ephilims.svg">
-  <img alt="Ephilims" src="white/warbands/ephilims.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/ylthari.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/ylthari.svg">
+      <img alt="Ylthari" src="black/warbands/ylthari.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/eyesofthenine.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/eyesofthenine.svg">
-  <img alt="Eyesofthenine" src="white/warbands/eyesofthenine.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/zarbag.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/zarbag.svg">
+      <img alt="Zarbag" src="black/warbands/zarbag.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/farstrider.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/farstrider.svg">
-  <img alt="Farstrider" src="white/warbands/farstrider.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/black-powders.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/black-powders.svg">
+      <img alt="Black Powders" src="black/warbands/black-powders.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/garrek.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/garrek.svg">
-  <img alt="Garrek" src="white/warbands/garrek.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/briar-queen.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/briar-queen.svg">
+      <img alt="Briar Queen" src="black/warbands/briar-queen.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/gnarlspirit.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/gnarlspirit.svg">
-  <img alt="Gnarlspirit" src="white/warbands/gnarlspirit.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/chaos-legionnaires.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/chaos-legionnaires.svg">
+      <img alt="Chaos Legionnaires" src="black/warbands/chaos-legionnaires.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/godsworn.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/godsworn.svg">
-  <img alt="Godsworn" src="white/warbands/godsworn.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/chosen-axes.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/chosen-axes.svg">
+      <img alt="Chosen Axes" src="black/warbands/chosen-axes.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/gorechhosen-of-dromm.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/gorechhosen-of-dromm.svg">
-  <img alt="Gorechhosen Of Dromm" src="white/warbands/gorechhosen-of-dromm.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/claws-of-karanak.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/claws-of-karanak.svg">
+      <img alt="Claws Of Karanak" src="black/warbands/claws-of-karanak.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/grashrak.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/grashrak.svg">
-  <img alt="Grashrak" src="white/warbands/grashrak.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/corvus-cabal.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/corvus-cabal.svg">
+      <img alt="Corvus Cabal" src="black/warbands/corvus-cabal.svg" width="100">
+    </picture></td>
   </tr>
+  
   <tr>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/grinkrakslooncourt.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/grinkrakslooncourt.svg">
-  <img alt="Grinkrakslooncourt" src="white/warbands/grinkrakslooncourt.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/crimson-court.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/crimson-court.svg">
+      <img alt="Crimson Court" src="black/warbands/crimson-court.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/grymwatch.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/grymwatch.svg">
-  <img alt="Grymwatch" src="white/warbands/grymwatch.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/cypher-lords.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/cypher-lords.svg">
+      <img alt="Cypher Lords" src="black/warbands/cypher-lords.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/grysellesarenai.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/grysellesarenai.svg">
-  <img alt="Grysellesarenai" src="white/warbands/grysellesarenai.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/da-kunnin-krew.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/da-kunnin-krew.svg">
+      <img alt="Da Kunnin Krew" src="black/warbands/da-kunnin-krew.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/hedkrakka.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/hedkrakka.svg">
-  <img alt="Hedkrakka" src="white/warbands/hedkrakka.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/darkoath-savagers.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/darkoath-savagers.svg">
+      <img alt="Darkoath Savagers" src="black/warbands/darkoath-savagers.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/hexbaneshunters.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/hexbaneshunters.svg">
-  <img alt="Hexbaneshunters" src="white/warbands/hexbaneshunters.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/domitans.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/domitans.svg">
+      <img alt="Domitans" src="black/warbands/domitans.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/hrothgorn.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/hrothgorn.svg">
-  <img alt="Hrothgorn" src="white/warbands/hrothgorn.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/dread-pageant.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/dread-pageant.svg">
+      <img alt="Dread Pageant" src="black/warbands/dread-pageant.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/ironskull.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/ironskull.svg">
-  <img alt="Ironskull" src="white/warbands/ironskull.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/elathain.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/elathain.svg">
+      <img alt="Elathain" src="black/warbands/elathain.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/kainan.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/kainan.svg">
-  <img alt="Kainan" src="white/warbands/kainan.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/ephilims.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/ephilims.svg">
+      <img alt="Ephilims" src="black/warbands/ephilims.svg" width="100">
+    </picture></td>
   </tr>
+  
   <tr>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/khagra.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/khagra.svg">
-  <img alt="Khagra" src="white/warbands/khagra.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/eyes-of-the-nine.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/eyes-of-the-nine.svg">
+      <img alt="Eyes Of The Nine" src="black/warbands/eyes-of-the-nine.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/magore.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/magore.svg">
-  <img alt="Magore" src="white/warbands/magore.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/farstrider.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/farstrider.svg">
+      <img alt="Farstrider" src="black/warbands/farstrider.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/mollog.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/mollog.svg">
-  <img alt="Mollog" src="white/warbands/mollog.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/garrek.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/garrek.svg">
+      <img alt="Garrek" src="black/warbands/garrek.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/morgok.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/morgok.svg">
-  <img alt="Morgok" src="white/warbands/morgok.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/gnarlspirit.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/gnarlspirit.svg">
+      <img alt="Gnarlspirit" src="black/warbands/gnarlspirit.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/morgwaeth.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/morgwaeth.svg">
-  <img alt="Morgwaeth" src="white/warbands/morgwaeth.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/godsworn.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/godsworn.svg">
+      <img alt="Godsworn" src="black/warbands/godsworn.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/myari.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/myari.svg">
-  <img alt="Myari" src="white/warbands/myari.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/gorechhosen-of-dromm.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/gorechhosen-of-dromm.svg">
+      <img alt="Gorechhosen Of Dromm" src="black/warbands/gorechhosen-of-dromm.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/rippa.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/rippa.svg">
-  <img alt="Rippa" src="white/warbands/rippa.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/grashrak.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/grashrak.svg">
+      <img alt="Grashrak" src="black/warbands/grashrak.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/sepulchral.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/sepulchral.svg">
-  <img alt="Sepulchral" src="white/warbands/sepulchral.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/grinkraks-loon-court.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/grinkraks-loon-court.svg">
+      <img alt="Grinkraks Loon Court" src="black/warbands/grinkraks-loon-court.svg" width="100">
+    </picture></td>
   </tr>
+  
   <tr>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/skabbiks.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/skabbiks.svg">
-  <img alt="Skabbiks" src="white/warbands/skabbiks.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/grymwatch.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/grymwatch.svg">
+      <img alt="Grymwatch" src="black/warbands/grymwatch.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/skaeth.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/skaeth.svg">
-  <img alt="Skaeth" src="white/warbands/skaeth.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/gryselles-arenai.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/gryselles-arenai.svg">
+      <img alt="Gryselles Arenai" src="black/warbands/gryselles-arenai.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/skittershanks-clawpack.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/skittershanks-clawpack.svg">
-  <img alt="Skittershanks Clawpack" src="white/warbands/skittershanks-clawpack.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/hedkrakka.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/hedkrakka.svg">
+      <img alt="Hedkrakka" src="black/warbands/hedkrakka.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/spiteclaw.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/spiteclaw.svg">
-  <img alt="Spiteclaw" src="white/warbands/spiteclaw.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/hexbanes-hunters.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/hexbanes-hunters.svg">
+      <img alt="Hexbanes Hunters" src="black/warbands/hexbanes-hunters.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/starblood.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/starblood.svg">
-  <img alt="Starblood" src="white/warbands/starblood.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/horns-of-hashut.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/horns-of-hashut.svg">
+      <img alt="Horns Of Hashut" src="black/warbands/horns-of-hashut.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/steelheart.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/steelheart.svg">
-  <img alt="Steelheart" src="white/warbands/steelheart.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/hrothgorn.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/hrothgorn.svg">
+      <img alt="Hrothgorn" src="black/warbands/hrothgorn.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/stormsire.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/stormsire.svg">
-  <img alt="Stormsire" src="white/warbands/stormsire.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/hunters-of-huanchi.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/hunters-of-huanchi.svg">
+      <img alt="Hunters Of Huanchi" src="black/warbands/hunters-of-huanchi.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/the-shadeborn.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/the-shadeborn.svg">
-  <img alt="The Shadeborn" src="white/warbands/the-shadeborn.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/iron-golems.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/iron-golems.svg">
+      <img alt="Iron Golems" src="black/warbands/iron-golems.svg" width="100">
+    </picture></td>
   </tr>
+  
   <tr>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/theexileddead.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/theexileddead.svg">
-  <img alt="Theexileddead" src="white/warbands/theexileddead.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/ironskull.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/ironskull.svg">
+      <img alt="Ironskull" src="black/warbands/ironskull.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/theheadsmen.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/theheadsmen.svg">
-  <img alt="Theheadsmen" src="white/warbands/theheadsmen.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/jade-obelisk.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/jade-obelisk.svg">
+      <img alt="Jade Obelisk" src="black/warbands/jade-obelisk.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/thundrik.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/thundrik.svg">
-  <img alt="Thundrik" src="white/warbands/thundrik.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/kainan.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/kainan.svg">
+      <img alt="Kainan" src="black/warbands/kainan.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/velmorn.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/velmorn.svg">
-  <img alt="Velmorn" src="white/warbands/velmorn.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/khagra.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/khagra.svg">
+      <img alt="Khagra" src="black/warbands/khagra.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/wurmspat.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/wurmspat.svg">
-  <img alt="Wurmspat" src="white/warbands/wurmspat.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/khainite-shadowstalkers.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/khainite-shadowstalkers.svg">
+      <img alt="Khainite Shadowstalkers" src="black/warbands/khainite-shadowstalkers.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/xandires.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/xandires.svg">
-  <img alt="Xandires" src="white/warbands/xandires.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/magore.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/magore.svg">
+      <img alt="Magore" src="black/warbands/magore.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/ylthari.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/ylthari.svg">
-  <img alt="Ylthari" src="white/warbands/ylthari.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/mollog.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/mollog.svg">
+      <img alt="Mollog" src="black/warbands/mollog.svg" width="100">
+    </picture></td>
     <td align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="white/warbands/zarbag.svg">
-  <source media="(prefers-color-scheme: light)" srcset="white/warbands/zarbag.svg">
-  <img alt="Zarbag" src="white/warbands/zarbag.svg" width="100">
-</picture></td>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/morgok.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/morgok.svg">
+      <img alt="Morgok" src="black/warbands/morgok.svg" width="100">
+    </picture></td>
+  </tr>
+  
+  <tr>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/morgwaeth.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/morgwaeth.svg">
+      <img alt="Morgwaeth" src="black/warbands/morgwaeth.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/myari.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/myari.svg">
+      <img alt="Myari" src="black/warbands/myari.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/rippa.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/rippa.svg">
+      <img alt="Rippa" src="black/warbands/rippa.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/rotmire-creed.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/rotmire-creed.svg">
+      <img alt="Rotmire Creed" src="black/warbands/rotmire-creed.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/scions-of-the-flame.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/scions-of-the-flame.svg">
+      <img alt="Scions Of The Flame" src="black/warbands/scions-of-the-flame.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/sepulchral.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/sepulchral.svg">
+      <img alt="Sepulchral" src="black/warbands/sepulchral.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/skabbiks.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/skabbiks.svg">
+      <img alt="Skabbiks" src="black/warbands/skabbiks.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/skaeth.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/skaeth.svg">
+      <img alt="Skaeth" src="black/warbands/skaeth.svg" width="100">
+    </picture></td>
+  </tr>
+  
+  <tr>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/skittershanks-clawpack.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/skittershanks-clawpack.svg">
+      <img alt="Skittershanks Clawpack" src="black/warbands/skittershanks-clawpack.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/spire-tyrants.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/spire-tyrants.svg">
+      <img alt="Spire Tyrants" src="black/warbands/spire-tyrants.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/spiteclaw.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/spiteclaw.svg">
+      <img alt="Spiteclaw" src="black/warbands/spiteclaw.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/splintered-fang.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/splintered-fang.svg">
+      <img alt="Splintered Fang" src="black/warbands/splintered-fang.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/starblood.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/starblood.svg">
+      <img alt="Starblood" src="black/warbands/starblood.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/steelheart.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/steelheart.svg">
+      <img alt="Steelheart" src="black/warbands/steelheart.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/stormsire.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/stormsire.svg">
+      <img alt="Stormsire" src="black/warbands/stormsire.svg" width="100">
+    </picture></td>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/tarantulos-brood.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/tarantulos-brood.svg">
+      <img alt="Tarantulos Brood" src="black/warbands/tarantulos-brood.svg" width="100">
+    </picture></td>
+  </tr>
+  
+  <tr>
+    <td align="center"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="white/warbands/the-exiled-dead.svg">
+      <source media="(prefers-color-scheme: light)" srcset="black/warbands/the-exiled-dead.svg">
+      <img alt="The Exiled Dead" src="black/warbands/the-exiled-dead.svg" width="100">
+    </picture></td>
   </tr>
 </table>
 
 
-### Weapons
+## Weapons
 
 <table>
   <tr>
