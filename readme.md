@@ -120,7 +120,7 @@ The repository is mirrored in black and white, with identical shapes available i
 
 Below is a thumnail of every image in the repository.
 
-## Card-Decks
+## Card Decks
 
 <table>
   <tr>
@@ -569,7 +569,7 @@ Below is a thumnail of every image in the repository.
 </table>
 
 
-### Grand-Alliances
+### Grand Alliances
 
 <table>
   <tr>
@@ -705,7 +705,7 @@ Below is a thumnail of every image in the repository.
 </table>
 
 
-#### Cities-Of-Sigmar
+#### Cities of Sigmar
 
 <table>
   <tr>
@@ -753,7 +753,7 @@ Below is a thumnail of every image in the repository.
 </table>
 
 
-#### Free-Peoples
+#### Free Peoples
 
 <table>
   <tr>
@@ -833,7 +833,7 @@ Below is a thumnail of every image in the repository.
 </table>
 
 
-#### Lumineth-Castes
+#### Lumineth Castes
 
 <table>
   <tr>
@@ -1015,7 +1015,7 @@ Below is a thumnail of every image in the repository.
 </table>
 
 
-## Misc
+## Miscellaneous
 
 <table>
   <tr>
