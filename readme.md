@@ -17,6 +17,7 @@ The repository is mirrored in black and white, with identical shapes available i
 <table>
   <tr>
     <td width="50%">
+
     ```
     tabletop-icons
     └── black
@@ -62,8 +63,10 @@ The repository is mirrored in black and white, with identical shapes available i
         └── weapons
             └── (13 icons)
     ```
+
     </td>
     <td width="50%">
+
     ```
     tabletop-icons
     └── white
@@ -109,6 +112,7 @@ The repository is mirrored in black and white, with identical shapes available i
         └── weapons
             └── (13 icons)
     ```
+
     </td>
   </tr>
 </table>
